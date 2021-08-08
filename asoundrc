@@ -1,0 +1,16 @@
+pcm.a52 {
+  @args [CARD]
+  @args.CARD {
+    type string
+  }
+  type rate
+  slave {
+    pcm {
+      type a52
+      bitrate 640
+      channels 6
+      card $CARD
+    }
+  rate 48000 
+  }
+}
