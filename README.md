@@ -10,6 +10,5 @@
     Tested on the ALC1220 dac
     Script designed for Ubuntu based distros
 
-    ***Script may have undefined behavior if run outside of intended environment. Run at your own risk***
-    <br />
+    Script may have undefined behavior if run outside of intended environment. Run at your own risk
 </p>
