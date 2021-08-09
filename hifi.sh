@@ -7,6 +7,7 @@ then
 	cp asoundrc asoundrc2
 	sudo mv asoundrc2 ~/.asoundrc
 	cp daemon.conf daemon.conf2
+	sudo cp /etc/pulse/daemon.conf /etc/pulse/daemon.conf.backup
 	sudo mv daemon.conf2 /etc/pulse/daemon.conf
 
         sudo apt-get -y install pavucontrol
